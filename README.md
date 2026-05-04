@@ -1,4 +1,4 @@
-# Chicago Crime Hotspot Analysis: A KDE Approach
+# KDE Approach for Chicago Crime Hotspot Analysis
 
 Geospatial analysis of **17,747 crime incidents** (robberies and homicides) recorded in Chicago during summer 2019 (June 1 – August 31). The project applies Kernel Density Estimation to characterize spatial crime patterns and identify statistically meaningful hotspots across the city's 77 community areas.
 
@@ -18,7 +18,7 @@ Geospatial analysis of **17,747 crime incidents** (robberies and homicides) reco
 
 - **Robberies concentrate near the core; homicides shift outward.** Mean distance to city center: 9.00 km (robberies) vs 11.46 km (homicides). Kolmogorov–Smirnov test rejects distributional equality (p < 0.0001).
 - **`cv_ml` reveals two distinct homicide clusters** invisible under `normal_reference`. Bandwidth selected by cross-validation is 50–60% narrower than Scott's rule, avoiding the over-smoothing that merges spatially separate risk zones.
-- **Robbery rate correlates with commercial zone density (r = 0.63); homicide rate does not (r = −0.28).** The two crime types follow different spatial logics and require different intervention frameworks.
+- **Robbery rate correlates with commercial zone density (r = 0.69); homicide rate does not (r = −0.26).** The two crime types follow different spatial logics and require different intervention frameworks.
 
 ## Project Structure
 
