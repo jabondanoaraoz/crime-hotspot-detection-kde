@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Extracted shapefiles (generated at runtime by the notebook)
+data/areas_comunitarias/
+
+# OS
+.DS_Store
+Thumbs.db
